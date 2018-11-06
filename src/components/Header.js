@@ -33,6 +33,7 @@ class Header extends React.Component {
                         WebkitBoxShadow: '5px 5px 5px rgba(68, 68, 68, 0.6)',
                         boxShadow: '5px 5px 5px rgba(68, 68, 68, 0.6)',
                     }}
+                    placeholder={'Find a movie...'}
                     value={inputVal}
                     onKeyPress={this.handleKeyPress}
                 />
